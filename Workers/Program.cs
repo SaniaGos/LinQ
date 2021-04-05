@@ -43,7 +43,6 @@ namespace Workers
                 Console.WriteLine($"{item.FName} {item.SName}  {item.Education}  {item.Profession}");
             }
             Console.ReadLine();
-
         }
     }
 }
