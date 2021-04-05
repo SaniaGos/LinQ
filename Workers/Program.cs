@@ -12,14 +12,14 @@ namespace Workers
     {
         static void Main(string[] args)
         {
-            var Old35 = Data.Workers.Select(w => w).Where(d => d.BirhtDay.Year < (DateTime.Now.Year - 35));
+            var Old35 = Data.Workers.Select(w => w).Where(d => d.BirhtDay.Year < (DateTime.Now.Year - 35)); // старше 36 років
             foreach (Worker item in Old35)
             {
                 Console.WriteLine($"{item.Fname}  {item.Sname}");
             }
             Console.WriteLine();
 
-            var maxSalarySecondHalfYear = Data.Salaries.Select(s => s).Max(d => d.SalSecondHalf);
+            var maxSalarySecondHalfYear = Data.Salaries.Select(s => s).Max(d => d.SalSecondHalf);  // максимальна зарплата другого півріччя
             foreach (Salary item in Data.Salaries)
             {
                 if (maxSalarySecondHalfYear == item.SalSecondHalf) Console.WriteLine(item.WorkerID);
@@ -27,7 +27,7 @@ namespace Workers
             Console.WriteLine("\n\n");
 
             // var average = Data.Salaries.Select(s => s).Average(s => s.SalFirstHalf + s.SalSecondHalf);
-
+            // працівники з меншою середньою зарплатою
             var join = Data.Workers.Join(Data.Salaries, w => w.IDnumber, s => s.WorkerID, (w, s) =>
                         new
                         {
