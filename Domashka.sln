@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameCard", "GameCart\GameCard.csproj", "{BFDF2A08-CB63-4736-A978-A005C0FE286E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workers", "Workers\Workers.csproj", "{893F6C7E-682B-4EC1-937A-4AC02E77160E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFDF2A08-CB63-4736-A978-A005C0FE286E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFDF2A08-CB63-4736-A978-A005C0FE286E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFDF2A08-CB63-4736-A978-A005C0FE286E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFDF2A08-CB63-4736-A978-A005C0FE286E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{893F6C7E-682B-4EC1-937A-4AC02E77160E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{893F6C7E-682B-4EC1-937A-4AC02E77160E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{893F6C7E-682B-4EC1-937A-4AC02E77160E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{893F6C7E-682B-4EC1-937A-4AC02E77160E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E39746E3-F710-49F0-BFF5-AD4A8E3E85F5}
+	EndGlobalSection
+EndGlobal
